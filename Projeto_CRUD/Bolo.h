@@ -35,7 +35,7 @@ public:
         return "[" + getTipo() + "] " + sabor + 
                " | R$ " + oss.str() +
                " | Qtd: " + to_string(quantidade) +
-               " | Fabricação: " + dataFabricacao.toString();
+               " | Data de entrega: " + dataFabricacao.toString();
     }
 
     virtual string serialize() const {
@@ -48,3 +48,4 @@ public:
 };
 
 #endif
+
