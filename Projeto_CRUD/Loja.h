@@ -39,7 +39,7 @@ public:
     void menu();
 };
 
-// Implementações inline (para simplificar)
+
 inline void Loja::inserir() {
     int tipo;
     cout << "1 - Bolo Simples\n2 - Bolo Recheado\nEscolha: ";
@@ -151,3 +151,4 @@ inline void Loja::menu() {
 }
 
 #endif
+
