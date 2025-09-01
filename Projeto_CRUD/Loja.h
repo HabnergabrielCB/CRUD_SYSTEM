@@ -40,7 +40,7 @@ public:
     void menu();
 };
 
-// Implementações
+// implementacoes
 inline void Loja::inserir() {
     int tipo;
     cout << "1 - Bolo Simples\n2 - Bolo Recheado\n3 - Kit Festa\nEscolha: ";
@@ -165,3 +165,4 @@ inline void Loja::menu() {
 }
 
 #endif
+
