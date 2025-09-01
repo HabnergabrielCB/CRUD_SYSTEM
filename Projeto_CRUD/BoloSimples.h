@@ -1,6 +1,6 @@
 #ifndef BOLOSIMPLES_H
 #define BOLOSIMPLES_H
-#include "Produto.h"
+#include "ProdutoLoja.h"
 
 class BoloSimples : public Produto {
     public:
@@ -9,5 +9,6 @@ class BoloSimples : public Produto {
 
     string getTipo() const override { return "BoloSimples"; }
 };
+
 
 #endif
